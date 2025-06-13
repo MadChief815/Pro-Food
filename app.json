@@ -1,7 +1,34 @@
 {
   "expo": {
-    "name": "FoodAppEject3",
-    "slug": "FoodAppEject3",
-    "version": "1.0.0"
+    "name": "FoodApp",
+    "slug": "FoodApp",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.agentcd.profood"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9daa27da-b85d-431d-9d40-72615b152747"
+      }
+    }
   }
 }
